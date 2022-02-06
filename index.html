@@ -1,0 +1,62 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Тестовое задание</title>
+   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./main.css">
+    </head>
+ 
+    <body>
+        <header>
+            <div class="header-container">
+                <a href="#"><img src="./images/logo.png"  alt="Логотип сайта" class="logo"/></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                         <li><a href="#">Частые вопросы</a></li>
+                         <li><a href="#">Контакты</a></li>
+                     </ul>
+                <nav>
+        </header>
+        <main>
+            <h1>Склонение имен существительных</h1>
+            <p class="block-main__p_explanatory">Данное приложение склоняет имена существительных по падежам и показывает к какому именно склонению относится слово </p>
+        </main>
+        <section>
+            <form >
+                <label for="enter-form__input">Поле для ввода слова</label>
+                <input type="text" placeholder="Введите слово" class="enter-form__input" required">
+                <span class="error-span"></span>
+                <label for="word">Выберите падеж</label>
+                <select name="word" required class="form__select_only">
+                    <option value="Именительный">Именительный</option>
+                    <option value="Родительный">Родительный</option>
+                    <option value="Дательный">Дательный</option>
+                    <option value="Винительный">Винительный</option>
+                    <option value="Творительный">Творительный</option>
+                    <option value="Предложный">Предложный</option>
+                    </select>
+            </form>
+            <div class="result-div">
+                <p class="result-div__p-declension_ordinal"><p>
+                <p class="result__p"></p>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <p>&#169; DevsCompany Inc. 2022</p>
+                  <div class="icons">
+                    <a href="#"><img src="images/icons/icon-vk.png" alt="Иконка ВКонтакте"/></a>
+                    <a href="#"><img src="images/icons/icon-inst.png" alt="Иконка Инстаграм"/></a>
+                    <a href="#"><img src="images/icons/icon-fb.png" alt="Иконка Фейсбук"/></a>
+                </div>
+                </div>
+        </footer>
+        <script src="./form.js"></script>
+    </body>
+    </html>
